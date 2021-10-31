@@ -1,3 +1,3 @@
-def call(String name) {
-    bat "echo Hello ${name}"
+def call(Map config=[:]) {
+    bat "echo Hello ${config.name}"
 }
