@@ -1,3 +1,3 @@
-def call() {
-    bat "echo Hello World."
+def call(string name) {
+    bat "echo Hello ${name}"
 }
